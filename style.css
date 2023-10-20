@@ -54,8 +54,16 @@ header .topbar .auth > div a{
     background-repeat: no-repeat;
     background-position: 0 0;
 }
-
-
+.products {
+    /* background: var(--light); */
+    height: 600px;
+}
+.addCart {
+    transition: 0.1s linear;
+}
+.card {
+    background-color: white;
+}
 
 
 @media (min-width: 576px) {
