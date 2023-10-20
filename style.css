@@ -48,6 +48,12 @@ header .topbar .auth > div a{
     bottom: -28px;
     z-index: -1;
 }
+.header-hero {
+    height: 600px !important;
+    background: url(/images/hero.png);
+    background-repeat: no-repeat;
+    background-position: 0 0;
+}
 
 
 
