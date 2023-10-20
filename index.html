@@ -3,8 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Arzu Food Store</title>
     <link rel="stylesheet" href="style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -12,10 +12,83 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
       rel="stylesheet"
     />
+    
   </head>
   <body>
-    <h2>
-        Welcome to New Project
-    </h2>
+    <header>
+      <div class="topbar bg-slate-900 flex justify-center w-full">
+        <div class="container w-11/12 flex justify-between items-center py-4 px-16">
+          <div class="icons flex gap-2">
+            <a href="#">
+              <img src="/icons/facebook.svg" alt="fb" srcset="">
+            </a>
+            <a href="#">
+              <img src="/icons/twitter.svg" alt="fb" srcset="">
+            </a>
+            <a href="#">
+              <img src="/icons/google.svg" alt="fb" srcset="">
+            </a>
+            <a href="#">
+              <img src="/icons/instagram.svg" alt="fb" srcset="">
+            </a>
+            <a href="#">
+              <img src="/icons/search.svg" alt="fb" srcset="">
+            </a>
+            <a href="#">
+              <img src="/icons/facebook.svg" alt="fb" srcset="">
+            </a>
+          </div>
+          <div class="auth flex gap-2 text-white">
+            <div class="flex gap-1">
+              <img src="/icons/user-icon.svg" alt="" srcset="">
+              <a href="#" target="_blank" >Log In</a>
+            </div>
+            <span class="divider">|</span>
+            <div class="flex gap-1">
+              <img src="/icons/edit.svg" alt="" srcset="">
+              <a href="#" target="_blank" >Register Now</a>
+            </div>
+            <span class="divider">|</span>
+            <div class="flex gap-1">
+              <img src="/icons/cart.svg" alt="" srcset="">
+              <a href="#" target="_blank" >0 items - ($0.00)</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <nav>
+      <div class="top flex justify-around pt-12">
+        <div class="contact flex items-center">
+          <img class="phone-icon" src="/icons/phone.svg" alt="phone-icon" srcset="">
+          <div>
+            <h5 class="phone">Call US: (+84) 123 456 789</h5>
+            <h5 class="font-semibold text-sm text-gray-800">E-mail : support@freshmeal.com</h5>
+          </div>
+        </div>
+        <div class="branding">
+          <img src="/icons/logo.svg" alt="" srcset="">
+        </div>
+        <div class="time flex items-center">
+          <img class="clock-icon" src="/icons/clock.svg" alt="phone-icon" srcset="">
+          <div>
+            <h5 class="phone">Working Hours:</h5>
+            <h5 class="font-semibold text-sm text-gray-800">Mon - Sat (8.00am - 12.00am)</h5>
+          </div>
+        </div>
+      </div>
+      <div class="nav-menu magic-shadow flex justify-center my-4 ">
+        <ul class="flex py-4 ">
+          <li><a class="px-6 py-4 font-semibold hover:bg-yellow-500 hover:text-white " href="/">Home</a></li>
+          <li><a class="px-8 py-4 font-semibold hover:bg-yellow-500 hover:text-white" href="#">About Us</a></li>
+          <li><a class="px-8 py-4 font-semibold hover:bg-yellow-500 hover:text-white" href="#">Products</a></li>
+          <li><a class="px-8 py-4 font-semibold hover:bg-yellow-500 hover:text-white" href="#">Blog</a></li>
+          <li><a class="px-8 py-4 font-semibold hover:bg-yellow-500 hover:text-white" href="#">Shop</a></li>
+          <li><a class="px-8 py-4 font-semibold hover:bg-yellow-500 hover:text-white" href="#">Services</a></li>
+          <li><a class="px-8 py-4 font-semibold hover:bg-yellow-500 hover:text-white" href="#">Gallery</a></li>
+          <li><a class="px-8 py-4 font-semibold hover:bg-yellow-500 hover:text-white" href="#">Contact Us</a></li>
+        </ul>
+      </div>
+    </nav>
   </body>
 </html>
