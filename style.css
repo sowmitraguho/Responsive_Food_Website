@@ -64,6 +64,23 @@ header .topbar .auth > div a{
 .card {
     background-color: white;
 }
+.big-deals {
+    background: linear-gradient(
+        rgba(35, 43, 56, 0.9), rgba(35, 43, 56, 0.9)
+    ), url(/images/food-table.jpg);
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+    background-size: cover !important;
+}
+.deals-card{
+    margin-top: 30px !important;
+}
+.times-card {
+    width: 160px;
+    height: 160px;
+   
+    
+}
 
 
 @media (min-width: 576px) {

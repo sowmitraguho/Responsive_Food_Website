@@ -20,7 +20,9 @@
   </head>
   <body>
     <header>
-      <div class="topbar bg-slate-900 flex justify-center w-full">
+      <div
+        class="topbar hidden md:block bg-slate-900 flex justify-center w-full"
+      >
         <div
           class="container w-11/12 flex justify-between items-center py-4 px-16"
         >
@@ -63,7 +65,7 @@
         </div>
       </div>
     </header>
-    <nav>
+    <nav class="">
       <div class="top flex justify-around pt-12">
         <div class="contact flex items-center">
           <img
@@ -323,12 +325,17 @@
           <h1
             class="mb-8 text-[26px] font-bold text-slate-800 tracking-tight leading-none"
           >
-          Freshmeal is a long established fact that a reader will be distracted
+            Freshmeal is a long established fact that a reader will be
+            distracted
           </h1>
           <p class="mb-12 font-normal text-gray-900">
-            Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden Sydney College in Virginia, The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested.
+            Contrary to popular belief, Lorem Ipsum is not simply random text.
+            It has roots in a piece of classical Latin literature from 45 BC,
+            making it over 2000 years old. Richard McClintock, a Latin professor
+            at Hampden Sydney College in Virginia, The standard chunk of Lorem
+            Ipsum used since the 1500s is reproduced below for those interested.
           </p>
-          
+
           <a
             href="#"
             class="inline-flex items-center justify-center px-3 py-2 font-semibold text-center border border-gray-900 rounded-lg text-white bg-gray-900 tracking-wide hover:bg-white hover:text-gray-900"
@@ -338,7 +345,106 @@
         </div>
       </div>
     </section>
-
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.8.1/flowbite.min.js"></script>
+    <section
+      class="products containers px-8 py-12 bg-gray-100 grid place-items-center"
+    >
+      <div class="products-top w-full place-items-center grid my-6">
+        <h2 class="font-bold text-xl mb-6">Our Services</h2>
+        <img src="/icons/hr.svg" alt="" srcset="" />
+      </div>
+      <div class="products-card grid grid-cols-3 gap-2 my-6">
+        <div
+          class="card max-w-sm grid place-items-center p-6 bg-white border border-gray-200 rounded-lg shadow"
+        >
+          <img
+            class="top-0 -mt-16"
+            src="/icons/transport.svg"
+            alt=""
+            srcset=""
+          />
+          <a href="#">
+            <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900">
+              Free Home delivery
+            </h5>
+          </a>
+          <p class="mb-3 font-normal text-gray-700">
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry.
+          </p>
+          <a
+            href="#"
+            class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-gray-800 rounded-lg hover:bg-white hover:text-gray-800 focus:ring-4 focus:outline-none focus:ring-blue-300"
+          >
+            Read more
+          </a>
+        </div>
+        <div
+          class="card max-w-sm grid place-items-center p-6 bg-white border border-gray-200 rounded-lg shadow"
+        >
+          <img class="top-0 -mt-16" src="/icons/bag.svg" alt="" srcset="" />
+          <a href="#">
+            <h5 class="mb-2 text-2xl font-bold tracking-tight text-yellow-500">
+              30 Days ReturnServices
+            </h5>
+          </a>
+          <p class="mb-3 font-normal text-gray-700">
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry.
+          </p>
+          <a
+            href="#"
+            class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-yellow-500 rounded-lg hover:bg-white hover:text-gray-800 focus:ring-4 focus:outline-none focus:ring-blue-300"
+          >
+            Read more
+          </a>
+        </div>
+        <div
+          class="card max-w-sm grid place-items-center p-6 bg-white border border-gray-200 rounded-lg shadow"
+        >
+          <img class="top-0 -mt-16" src="/icons/usd.svg" alt="" srcset="" />
+          <a href="#">
+            <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900">
+              Money Back Guaranted
+            </h5>
+          </a>
+          <p class="mb-3 font-normal text-gray-700">
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry.
+          </p>
+          <a
+            href="#"
+            class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-gray-800 rounded-lg hover:bg-white hover:text-gray-800 focus:ring-4 focus:outline-none focus:ring-blue-300"
+          >
+            Read more
+          </a>
+        </div>
+      </div>
+    </section>
+    <section
+      class="big-deals containers px-8 py-12 bg-gray-100 grid place-items-center"
+    >
+      <div class="big-deals w-full place-items-center grid my-6">
+        <h2 class="font-bold text-white text-2xl mb-2">Big Deals of the Week</h2>
+        <img src="/icons/hr.svg" alt="" srcset="" />
+      </div>
+      <div class="deals-card grid grid-cols-4 gap-4 place-items-center mb-6">
+        <div class="times-card grid place-items-center p-6 bg-yellow-500 border rounded-lg">
+          <h5 class="text-5xl font-semibold text-white mb-0 pb-0">02</h5>
+          <p class="-mt-8 font-normal text-lg text-white">Days</p>
+        </div>
+        <div class="times-card grid place-items-center p-6 bg-yellow-500 border rounded-lg">
+          <h5 class="text-5xl font-semibold text-white">24</h5>
+          <p class="-mt-8 font-normal text-lg text-white">Hours</p>
+        </div>
+        <div class="times-card grid place-items-center p-6 bg-yellow-500 border rounded-lg">
+          <h5 class="text-5xl font-semibold text-white">55</h5>
+          <p class="-mt-8 font-normal text-lg text-white">Minutes</p>
+        </div>
+        <div class="times-card grid place-items-center p-6 bg-yellow-500 border rounded-lg">
+          <h5 class="text-5xl font-semibold text-white">58</h5>
+          <p class="-mt-8 font-normal text-lg text-white">Seconds</p>
+        </div>
+      </div>
+    </section>
   </body>
 </html>
