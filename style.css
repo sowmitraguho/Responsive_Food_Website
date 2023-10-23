@@ -81,6 +81,25 @@ header .topbar .auth > div a{
    
     
 }
+.footer-items h2 {
+    color: #fff;
+    font-weight: bold;
+    font-size: larger;
+    padding-bottom: 11px;
+    margin-bottom: 11px;
+    border-bottom: 1px solid #EEBF00;
+}
+.footer-items ul li {
+    color: #fff;
+    padding-bottom: 10px;
+    display: flex;
+}
+.footer-items ul li img {
+    margin-right: 10px;
+}
+.social-media-links ul li {
+    margin-bottom: 10px;
+}
 
 
 @media (min-width: 576px) {
