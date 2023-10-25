@@ -23,6 +23,7 @@ header .topbar .auth > div a{
     text-decoration: none !important;
     font-family: Raleway !important;
     font-weight: 600 !important;
+    transition: all 0.3s ease !important;
 } 
 .phone {
     font-weight: 900;
