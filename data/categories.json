@@ -1,0 +1,11 @@
+[
+    {"id":"01", "name":"Breaking News"},
+    {"id":"02", "name":"Sports News"},
+    {"id":"03", "name":"International News"},
+    {"id":"04", "name":"Political News"},
+    {"id":"05", "name":"Study News"},
+    {"id":"06", "name":"Regular News"},
+    {"id":"07", "name":"Hot News"},
+    {"id":"08", "name":"Latest News"},
+    {"id":"09", "name":"All News"}
+]
